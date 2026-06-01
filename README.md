@@ -1,11 +1,17 @@
-# Prime Community Website v2
+# Prime Community Website v3
 
-「積み上がる週末」をテーマにしたGitHub Pages用Webサイトです。
+GitHub Pages用の静的サイトです。
+
+## 連絡先
+
+- Instagram: `@prime2357911131719`
+- Peatix: `https://prime12.peatix.com`
+- 参加希望者: Instagram DM
 
 ## ファイル構成
 
 ```text
-prime-community-site-v2/
+prime-community-site-v3/
 ├─ index.html
 ├─ styles.css
 ├─ script.js
@@ -18,7 +24,7 @@ prime-community-site-v2/
 ## GitHub Pages公開手順
 
 1. GitHubで新規リポジトリを作成
-2. このフォルダの中身をすべてアップロード
+2. このフォルダ内のファイルをすべてアップロード
 3. `Settings` → `Pages`
 4. `Deploy from a branch`
 5. Branch: `main` / Folder: `/root`
@@ -26,18 +32,6 @@ prime-community-site-v2/
 
 ## ロゴ差し替え
 
-`assets/logo.jpeg` を同名で置き換えてください。
+`assets/logo.jpeg` を同名ファイルで置き換えてください。
 
-CSSでは `object-fit: contain` を指定しているため、ロゴが切れにくい設計です。
-
-## 公開前に変更する場所
-
-`index.html` の以下を実際のURL・メールアドレスに変更してください。
-
-```html
-https://peatix.com/
-```
-
-```html
-hello@example.com
-```
+CSS側で `object-fit: contain` を指定しているため、ロゴが切れにくい構成です。
